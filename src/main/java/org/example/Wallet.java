@@ -60,11 +60,11 @@ public class Wallet {
 
 
     public void getMoney(double expendMoney){
-        double newSolde = solde - expendMoney;
+        System.out.println( solde - expendMoney);
     }
 
     public void addMoney(double addingMoney){
-        double newSolde = solde + addingMoney;
+        System.out.println(solde + addingMoney);
     }
 
     public double checkMoney(){
